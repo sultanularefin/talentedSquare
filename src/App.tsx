@@ -123,9 +123,11 @@ const App: React.FC<Props> = props => {
                             // muted=  {true}
                             loop={true}
                             autoPlay={true}
+                            src={`${selectedThemeState.name}.${selectedThemeState.type}`}
 
-                            // width=  "250"
-                            // height= {"250"}
+
+                            width=  {"250"}
+                            height= {"250"}
 
                             //             height?: number | string;
                             // playsInline?: boolean;
@@ -136,12 +138,7 @@ const App: React.FC<Props> = props => {
 
                         >
 
-                            <source
-                                src={`${selectedThemeState.name}.${selectedThemeState.type}`}
-                                type={`video/${selectedThemeState.type}`}
-                                // type= `video/${selectedThemeState.type}`
-                            >
-                            </source>
+
                         </video>
 
 

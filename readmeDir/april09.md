@@ -256,3 +256,12 @@ export default App;
                             </source>
                         </video>
 ```
+
+## version 1 again::
+
+```js
+
+  muted=  {true}
+                    loop={true}
+                    autoPlay={true}
+```
