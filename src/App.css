@@ -23,6 +23,33 @@
   z-index: -1;
 }
 
+/*
+#label-bg-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
+}
+
+*/
+
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+
+  width: 15%;
+  background-color: red;
+  /*height: 6%;*/
+}
+
+label {
+  display: inline-block;
+  /*font-size: */
+}
+
+
 #select-bg {
   position: absolute;
   top: 50%;
